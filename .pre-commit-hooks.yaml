@@ -1,0 +1,9 @@
+-   id: pep8
+    name: pep8
+    entry: pycodestyle
+    language: python
+    types: [python]
+    args: ["--show-pep8", "--statistics"]
+    require_serial: false
+    additional_dependencies: []
+    minimum_pre_commit_version: '0'
